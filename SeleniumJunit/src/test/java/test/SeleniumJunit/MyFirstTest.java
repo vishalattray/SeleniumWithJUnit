@@ -6,9 +6,10 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 import org.junit.Test;
+import org.junit.Assert.*;
 
 
-public class MyFirstTest extends TestSuite{
+public class MyFirstTest extends TestCase{
 
 	@Test
 	public void firstTest() {
