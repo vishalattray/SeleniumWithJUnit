@@ -2,6 +2,7 @@ package test.SeleniumJunit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 import static org.testng.Assert.assertTrue;
@@ -10,7 +11,7 @@ import org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class MyFirstTest extends TestSuite{
+public class MyFirstTest extends TestCase{
 
 	@Test
 	public void firstTest() {
