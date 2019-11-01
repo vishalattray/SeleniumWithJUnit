@@ -3,10 +3,12 @@ package test.SeleniumJunit;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
 import org.junit.Test;
 
 
-public class MyFirstTest extends TestCase{
+public class MyFirstTest extends TestSuite{
 
 	@Test
 	public void firstTest() {
