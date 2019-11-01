@@ -64,6 +64,7 @@ public class MySecondTestCase {
 		
 		//Close all the browsers
 		driver.quit();
+		
 	}
 
 }
